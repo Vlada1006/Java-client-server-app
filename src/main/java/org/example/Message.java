@@ -8,6 +8,9 @@ public class Message {
     private int sender_number;
     private JSONArray data;
 
+    public Message(byte commandNumber, long messageNumber, int clientNumber, JSONArray data) {
+    }
+
     public byte getClient_number() {
         return client_number;
     }
