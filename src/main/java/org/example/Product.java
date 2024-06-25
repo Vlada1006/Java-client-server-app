@@ -1,5 +1,7 @@
 package org.example;
 
+import static java.lang.StringTemplate.STR;
+
 public class Product {
     private String id;
     private String name;
